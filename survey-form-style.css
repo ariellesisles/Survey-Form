@@ -1,0 +1,107 @@
+header{
+    padding: 20px;
+      margin: 10px 10px 10px 10px;
+  }
+  h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 48px; 
+  }
+  
+  #description{
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px 10px 10px 10px;
+    align-content: center;
+  
+  }
+  
+  label, input, p, option, select{
+    font-size: 20px;
+     font-family: 'Varela Round', sans-serif;
+     align-content: center;
+  }
+  
+  input[type=text],input[type=number],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #EBF0DC;
+  }
+  
+  label{
+    margin-top: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .container{
+    background-color: #EBF0DC; 
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    align-content: center;
+    
+  }
+  
+  
+  footer{
+    text-align: center;
+    }
+  #ajgs{
+    color: #F6680C;
+    text-align: center;
+  }
+  a:active {
+          text-decoration: underline;
+        }
+        a:link {
+          text-decoration: none;
+        }
+        
+        a:visited {
+          text-decoration: none;
+        }
+        
+        a:hover {
+          text-decoration: underline;
+        }
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  survey-form {
+      background-color:#EBF0DC ;
+  }
+  form{
+      align-content: center;
+      background-color:#C6C5B9;
+      padding: 30px;
+
+  }
